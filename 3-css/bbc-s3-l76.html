@@ -7,9 +7,10 @@
 
   <style type="text/css">
     #topbar {
-      width: 990px;
+      width: 976px;
       margin: 0 auto;
       height: 40px;
+      border-bottom: 1px black solid;
       < !-- background-color: #FFF2F2;
       -->
     }
@@ -42,6 +43,41 @@
       font-size: 80%;
       position: relative;
       top: 11px;
+      padding-right: 70px;
+    }
+
+    #signin-div {
+      float: left;
+    }
+
+    .topbar-menu {
+      font-weight: bold;
+      font-size: 80%;
+      padding: 13px 0 0 12px;
+      margin-left: 12px;
+      height: 27px;
+    }
+
+    #downarrow {
+      width: 10px;
+      margin-left: 75px;
+      margin-right: 10px;
+    }
+
+    #search-box {
+      background-color: #E4E4E4;
+      border: none;
+      font-weight: bold;
+      font-size: 12px;
+      padding: 4px;
+      margin: 8px 0 0 10px;
+      width: 169px;
+      float: left;
+    }
+
+    #magnifying-glass {
+      height: 23px;
+      margin-top: 8px;
     }
   </style>
 
@@ -53,6 +89,32 @@
     <div id="signin-div" class="topbar-section">
       <img id="signin-image" src="bbc-images/signinimage.png" alt="Sign in icon">
       <span id="signin-text">Sign in</span>
+    </div>
+    <div class="topbar-section topbar-menu">
+      News
+    </div>
+    <div class="topbar-section topbar-menu">
+      Sport
+    </div>
+    <div class="topbar-section topbar-menu">
+      Weather
+    </div>
+    <div class="topbar-section topbar-menu">
+      Shop
+    </div>
+    <div class="topbar-section topbar-menu">
+      Reel
+    </div>
+    <div class="topbar-section topbar-menu">
+      Travel
+    </div>
+    <div class="topbar-section topbar-menu">
+      More
+      <img id="downarrow" src="bbc-images/downarrow.png" alt="Open submenu">
+    </div>
+    <div class="topbar-section">
+      <input id="search-box" type="text" placeholder="Search">
+      <input type="image" id="magnifying-glass" src="bbc-images/magnifying-glass.png" alt="Go">
     </div>
   </div>
 </body>
