@@ -10,9 +10,8 @@
       width: 976px;
       margin: 0 auto;
       height: 40px;
-      border-bottom: 1px black solid;
-      < !-- background-color: #FFF2F2;
-      -->
+      /*border-bottom: 1px black solid;
+      background-color: #FFF2F2;*/
     }
 
     body {
@@ -79,6 +78,77 @@
       height: 23px;
       margin-top: 8px;
     }
+
+    .clear {
+      clear: both;
+    }
+
+    #menu-bar-container {
+      width: 100%;
+      background-color: #BB1919;
+      height: 56px;
+      border-top: 1px #CCCCCC solid;
+    }
+
+    #menu-bar {
+      color: white;
+      width: 976px;
+      margin: 0 auto;
+    }
+
+    #menu-bar p {
+      margin: 0;
+      padding: 6px 0 0 0;
+      font-size: 40px;
+      letter-spacing: 2px;
+      position: relative;
+      left: -2px;
+    }
+
+
+    #menu-bar-2-container {
+      width: 100%;
+      background-color: #A91617;
+      height: 36px;
+    }
+
+    #menu-bar-2 {
+      width: 976px;
+      margin: 0 auto;
+    }
+
+    #menu-bar-2 a {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      padding: 0 12px 0 12px;
+      border-right: 1px solid #BB4545;
+      position: relative;
+      top: 11px;
+      float: left;
+    }
+
+    #menu-bar-2 a:hover {
+      text-decoration: underline;
+    }
+
+    .no-border {
+      border: none !important;
+    }
+
+    .no-left-padding {
+      padding-left: 0 !important;
+    }
+
+    .no-right-padding {
+      padding-right: 0 !important;
+    }
+
+    #downarrow-red {
+      height: 10px;
+      margin: 15px 5px;
+      float: left;
+    }
   </style>
 
 </head>
@@ -117,6 +187,34 @@
       <input type="image" id="magnifying-glass" src="bbc-images/magnifying-glass.png" alt="Go">
     </div>
   </div>
+
+  <div class="clear"></div>
+
+  <div id="menu-bar-container">
+    <div id="menu-bar">
+      <p>NEWS</p>
+    </div>
+  </div>
+
+  <div id="menu-bar-2-container">
+    <div id="menu-bar-2">
+      <a href="#" class="no-left-padding">Home</a>
+      <a href="#">Video</a>
+      <a href="#">World</a>
+      <a href="#">Asia</a>
+      <a href="#">UK</a>
+      <a href="#">Business</a>
+      <a href="#">Tech</a>
+      <a href="#">Science</a>
+      <a href="#">Stories</a>
+      <a href="#">Entertainment & Arts</a>
+      <a href="#">Health</a>
+      <a href="#">World News TV</a>
+      <a href="#" class="no-border no-right-padding">More</a>
+      <img id="downarrow-red" src="./bbc-images/downarrow-red.png" alt="Open submenu">
+    </div>
+  </div>
+
 </body>
 
 </html>
