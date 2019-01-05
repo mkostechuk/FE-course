@@ -10,8 +10,6 @@
       width: 976px;
       margin: 0 auto;
       height: 40px;
-      /*border-bottom: 1px black solid;
-      background-color: #FFF2F2;*/
     }
 
     body {
@@ -121,7 +119,7 @@
       text-decoration: none;
       color: white;
       font-size: 14px;
-      padding: 0 12px 0 12px;
+      padding: 0 12px;
       border-right: 1px solid #BB4545;
       position: relative;
       top: 11px;
@@ -148,6 +146,126 @@
       height: 10px;
       margin: 15px 5px;
       float: left;
+    }
+
+    #page-container {
+      width: 976px;
+      margin: 0 auto;
+    }
+
+    #page-header {
+      width: 100%;
+
+    }
+
+    #page-header p {
+      padding: 5px 0 0 0;
+      margin: 0;
+      text-decoration: none;
+      font-size: 20px;
+      border-bottom: 3px solid #BB1919;
+      width: 102px;
+      color: #404040;
+    }
+
+    #primary-column {
+      width: 645px;
+      height: 100px;
+      float: left;
+      margin: 20px 16px 0 0;
+    }
+
+    #secondary-column {
+      width: 298px;
+      height: 100px;
+      float: left;
+      border-left: 1px solid #CCCCCC;
+      margin: 45px 0 0 0;
+      padding: 0 0 0 16px;
+    }
+
+    #primary-column h1 {
+      margin: 0;
+      color: #686868;
+      letter-spacing: -1px;
+      font-size: 33px;
+      margin-bottom: 12px;
+    }
+
+    #primary-column h1:hover {
+      color: #1167A8;
+      cursor: pointer;
+    }
+
+    #main-article-preview {
+      width: 231px;
+      float: left;
+      color: #686868;
+      font-size: 14px;
+      line-height: 130%;
+    }
+
+    #main-article-preview p {
+      margin: 0;
+      padding: 0 0 7px 0;
+    }
+
+    #main-article-image {
+      width: 398px;
+      margin: 0 0 16px 16px;
+
+    }
+
+    .clock-icon {
+      height: 13px;
+      padding-right: 4px;
+      position: relative;
+      top: 3px;
+    }
+
+    .date {
+      font-size: 13px;
+      padding-right: 4px;
+    }
+
+    .topic {
+      color: #BB1919;
+      text-decoration: none;
+      font-size: 13px;
+      border-left: 1px solid #CCCCCC;
+      padding-left: 6px;
+    }
+
+    .topic:hover {
+      color: #1167A8;
+    }
+
+    #main-article-preview hr {
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #BB1919;
+      margin-top: 10px;
+      padding: 0;
+      width: 40px;
+    }
+
+    .video-icon {
+      height: 12px;
+      margin-right: 3px;
+    }
+
+    .related-news {
+      color: black;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .related-news:hover {
+      color: #1167A8;
+    }
+
+    .related-news:visited {
+      color: #686868;
     }
   </style>
 
@@ -213,6 +331,37 @@
       <a href="#" class="no-border no-right-padding">More</a>
       <img id="downarrow-red" src="./bbc-images/downarrow-red.png" alt="Open submenu">
     </div>
+  </div>
+
+  <div class="clear"></div>
+
+  <div id="page-container">
+
+    <div id="page-header">
+      <span class="section-header">
+        <p>Technology</p>
+      </span>
+    </div>
+
+    <div id="primary-column">
+      <div id="main-article">
+        <h1>The hot new tech at the CES 2019 expo</h1>
+        <div id="main-article-preview">
+          <p>Emotional robots, beer pods, flexible phones and 8K TVs are all part of our CES tech show preview.</p>
+          <img class="clock-icon" src="bbc-images/clock-icon.png" alt="Date"><span class="date">5 January 2019</span>
+          <a href="#" class="topic">Technology</a>
+          <hr align="left">
+          <p><a href="#" class="related-news"><img class="video-icon" src="bbc-images/video-icon.png" alt="Video">Electric sun cream: How well does it work?</a></p>
+          <p><a href="https://yahoo.jp" class="related-news"><img class="video-icon" src="bbc-images/video-icon.png" alt="Video">Hands-on with the first bendy phone</a></p>
+        </div>
+        <img id="main-article-image" src="bbc-images/main-article-image.jpg" alt="Main article image">
+      </div>
+    </div>
+
+    <div id="secondary-column">
+      <h2>Secondary column</h2>
+    </div>
+
   </div>
 
 </body>
