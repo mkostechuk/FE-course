@@ -1,0 +1,299 @@
+#topbar {
+  width: 976px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#logo {
+  margin: 8px 8px 0px 0px;
+  float: left;
+}
+
+.topbar-section {
+  float: left;
+  border-left: 1px #CCCCCC solid;
+  height: 100%;
+}
+
+#signin-image {
+  height: 20px;
+  float: left;
+  margin: 11px 6px 9px 15px;
+}
+
+#signin-text {
+  font-weight: bold;
+  font-size: 80%;
+  position: relative;
+  top: 11px;
+  padding-right: 70px;
+}
+
+#signin-div {
+  float: left;
+}
+
+.topbar-menu {
+  font-weight: bold;
+  font-size: 80%;
+  padding: 13px 0 0 12px;
+  margin-left: 12px;
+  height: 27px;
+}
+
+#downarrow {
+  width: 10px;
+  margin-left: 75px;
+  margin-right: 10px;
+}
+
+#search-box {
+  background-color: #E4E4E4;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 4px;
+  margin: 8px 0 0 10px;
+  width: 169px;
+  float: left;
+}
+
+#magnifying-glass {
+  height: 23px;
+  margin-top: 8px;
+}
+
+.clear {
+  clear: both;
+}
+
+#menu-bar-container {
+  width: 100%;
+  background-color: #BB1919;
+  height: 56px;
+  border-top: 1px #CCCCCC solid;
+}
+
+#menu-bar {
+  color: white;
+  width: 976px;
+  margin: 0 auto;
+}
+
+#menu-bar p {
+  margin: 0;
+  padding: 6px 0 0 0;
+  font-size: 40px;
+  letter-spacing: 2px;
+  position: relative;
+  left: -2px;
+}
+
+
+#menu-bar-2-container {
+  width: 100%;
+  background-color: #A91617;
+  height: 36px;
+}
+
+#menu-bar-2 {
+  width: 976px;
+  margin: 0 auto;
+}
+
+#menu-bar-2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 0 12px;
+  border-right: 1px solid #BB4545;
+  position: relative;
+  top: 11px;
+  float: left;
+}
+
+#menu-bar-2 a:hover {
+  text-decoration: underline;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.no-right-padding {
+  padding-right: 0 !important;
+}
+
+#downarrow-red {
+  height: 10px;
+  margin: 15px 5px;
+  float: left;
+}
+
+#page-container {
+  width: 976px;
+  margin: 0 auto;
+}
+
+#page-header {
+  width: 100%;
+
+}
+
+#page-header p {
+  padding: 5px 0 0 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 3px solid #BB1919;
+  width: 102px;
+  color: #404040;
+}
+
+#primary-column {
+  width: 645px;
+  height: 100px;
+  float: left;
+  margin: 20px 16px 0 0;
+}
+
+#secondary-column {
+  width: 298px;
+  float: left;
+  border-left: 1px solid #CCCCCC;
+  margin: 45px 0 0 0;
+  padding: 0 0 0 16px;
+}
+
+#primary-column h1 {
+  margin: 0;
+  color: #686868;
+  letter-spacing: -1px;
+  font-size: 33px;
+  margin-bottom: 12px;
+}
+
+#primary-column h1:hover {
+  color: #1167A8;
+  cursor: pointer;
+}
+
+#main-article-preview {
+  width: 231px;
+  float: left;
+  color: #686868;
+  font-size: 14px;
+  line-height: 130%;
+}
+
+#main-article-preview p {
+  margin: 0;
+  padding: 0 0 7px 0;
+}
+
+#main-article-image {
+  width: 398px;
+  margin: 0 0 16px 16px;
+
+}
+
+.clock-icon {
+  height: 13px;
+  padding-right: 4px;
+  position: relative;
+  top: 3px;
+}
+
+.date {
+  font-size: 13px;
+  padding-right: 4px;
+}
+
+.topic {
+  color: #BB1919;
+  text-decoration: none;
+  font-size: 13px;
+  border-left: 1px solid #CCCCCC;
+  padding-left: 6px;
+}
+
+.topic:hover {
+  color: #1167A8;
+}
+
+#main-article-preview hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #BB1919;
+  margin-top: 10px;
+  padding: 0;
+  width: 40px;
+}
+
+.video-icon {
+  height: 12px;
+  margin-right: 3px;
+}
+
+.related-news {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.related-news:hover {
+  color: #1167A8;
+}
+
+.related-news:visited {
+  color: #686868;
+}
+
+#secondary-column h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.secondary_news_entry {
+  margin: 16px 0;
+}
+
+.secondary_news_image {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: 110px;
+  float: left;
+}
+
+.secondary_news_title {
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 130%;
+  text-decoration: none;
+  color: black;
+}
+
+.secondary_news_title:hover {
+  color: #1167A8;
+}
+
+.date-topic-sig {
+  color: #686868;
+  line-height: 130%;
+}
+
+#secondary-column p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
+}
