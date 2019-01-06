@@ -177,7 +177,6 @@
 
     #secondary-column {
       width: 298px;
-      height: 100px;
       float: left;
       border-left: 1px solid #CCCCCC;
       margin: 45px 0 0 0;
@@ -267,6 +266,45 @@
     .related-news:visited {
       color: #686868;
     }
+
+    #secondary-column h2 {
+      font-weight: normal;
+      margin: 0;
+    }
+
+    .secondary_news_entry {
+      margin: 16px 0;
+    }
+
+    .secondary_news_image {
+      margin-right: 8px;
+      margin-bottom: 8px;
+      width: 110px;
+      float: left;
+    }
+
+    .secondary_news_title {
+      font-weight: bold;
+      letter-spacing: -0.5px;
+      line-height: 130%;
+      text-decoration: none;
+      color: black;
+    }
+
+    .secondary_news_title:hover {
+      color: #1167A8;
+    }
+
+    .date-topic-sig {
+      color: #686868;
+      line-height: 130%;
+    }
+
+    #secondary-column p {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 4px;
+    }
   </style>
 
 </head>
@@ -348,8 +386,10 @@
         <h1>The hot new tech at the CES 2019 expo</h1>
         <div id="main-article-preview">
           <p>Emotional robots, beer pods, flexible phones and 8K TVs are all part of our CES tech show preview.</p>
-          <img class="clock-icon" src="bbc-images/clock-icon.png" alt="Date"><span class="date">5 January 2019</span>
-          <a href="#" class="topic">Technology</a>
+          <span class="date-topic-sig">
+            <img class="clock-icon" src="bbc-images/clock-icon.png" alt="Date"><span class="date">5 January 2019</span>
+            <a href="#" class="topic">Technology</a>
+          </span>
           <hr align="left">
           <p><a href="#" class="related-news"><img class="video-icon" src="bbc-images/video-icon.png" alt="Video">Electric sun cream: How well does it work?</a></p>
           <p><a href="https://yahoo.jp" class="related-news"><img class="video-icon" src="bbc-images/video-icon.png" alt="Video">Hands-on with the first bendy phone</a></p>
@@ -359,7 +399,62 @@
     </div>
 
     <div id="secondary-column">
-      <h2>Secondary column</h2>
+      <h2>Watch/Listen</h2>
+      <div class="secondary_news_entry">
+        <img class="secondary_news_image" src="bbc-images/sec_col_news1.jpg" alt="News thumbnail">
+        <p><a href="#" class="secondary_news_title">Hands-on with the first bendy phone</a></p>
+        <span class="date-topic-sig">
+          <img class="clock-icon" src="bbc-images/clock-icon.png" alt="Date"><span class="date">5 January 2019</span>
+          <a href="#" class="topic">Technology</a>
+        </span>
+      </div>
+
+      <div class="secondary_news_entry">
+        <img class="secondary_news_image" src="bbc-images/sec_col_news7.jpg" alt="News thumbnail">
+        <p><a href="#" class="secondary_news_title">Electric sun cream: How well does it work?</a></p>
+        <span class="date-topic-sig">
+          <img class="clock-icon" src="bbc-images/clock-icon.png" alt="Date"><span class="date">5 January 2019</span>
+          <a href="#" class="topic">Technology</a>
+        </span>
+      </div>
+
+      <div class="secondary_news_entry">
+        <img class="secondary_news_image" src="bbc-images/sec_col_news2.jpg" alt="News thumbnail">
+        <p><a href="#" class="secondary_news_title">'You can't be what you can't see'</a></p>
+        <span class="date-topic-sig">
+          <img class="clock-icon" src="bbc-images/clock-icon.png" alt="Date"><span class="date">30 December 2018</span>
+          <a href="#" class="topic">Technology</a>
+        </span>
+      </div>
+
+      <div class="secondary_news_entry">
+        <img class="secondary_news_image" src="bbc-images/sec_col_news3.jpg" alt="News thumbnail">
+        <p><a href="#" class="secondary_news_title">How can social media affect mental health?</a></p>
+        <span class="date-topic-sig">
+          <img class="clock-icon" src="bbc-images/clock-icon.png" alt="Date"><span class="date">30 December 2018</span>
+          <a href="#" class="topic">Wales</a>
+        </span>
+      </div>
+
+      <div class="secondary_news_entry">
+        <img class="secondary_news_image" src="bbc-images/sec_col_news4.jpg" alt="News thumbnail">
+        <p><a href="#" class="secondary_news_title">Siberia's Bitcoin Babushkas</a></p>
+        <span class="date-topic-sig">
+          <img class="clock-icon" src="bbc-images/clock-icon.png" alt="Date"><span class="date">29 December 2018</span>
+          <a href="#" class="topic">Europe</a>
+        </span>
+      </div>
+
+      <div class="secondary_news_entry">
+        <img class="secondary_news_image" src="bbc-images/sec_col_news5.jpg" alt="News thumbnail">
+        <p><a href="#" class="secondary_news_title">The annoying things about being called Alexa</a></p>
+        <span class="date-topic-sig">
+          <img class="clock-icon" src="bbc-images/clock-icon.png" alt="Date"><span class="date">26 December 2018</span>
+          <a href="#" class="topic">Newsbeat</a>
+        </span>
+      </div>
+
+
     </div>
 
   </div>
